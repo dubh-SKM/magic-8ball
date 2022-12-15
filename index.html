@@ -14,7 +14,12 @@
 
 
     <section>
-        <h1 class="text-8xl">The Magical & Mysterious<br>8 Ball</h1>
+        <div class="title-bar">
+            <img class="left" src="../magic-8ball/img/i ching left.png" alt="i ching left">
+            <h1>The Magical & Mysterious<br>8 Ball</h1>
+            <img class="right" src="../magic-8ball/img/i ching right.png" alt="i ching right">
+        </div>
+        <div id="answers"></div>
         <div id="input">
             <p class="text-2xl">Ask your question of the mysterious eight ball.  You may ask ANYTHING that is a <span>yes or no question</span>, but BEWARE, lest you be led astray while seeking knowledge concerning your own fate....</p>
             <form>
@@ -23,7 +28,6 @@
                 <button type="button" onclick="spinBall()">Shake the Ball</button>
             </form>
         </div>
-        <div id="answers"></div>
         <video autoplay muted loop id="myVideo">
             <source src="../magic-8ball/img/vid1.mp4" type="video/mp4">
           </video>
