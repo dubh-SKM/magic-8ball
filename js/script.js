@@ -55,3 +55,9 @@ function spinBall() {
     return image;
 }
 
+function createButton() {
+    let button = document.body.createElement('button')
+    button.innerHTML = "Try Again"
+    document.getElementById('input').appendChild(button);
+}
+createButton();
